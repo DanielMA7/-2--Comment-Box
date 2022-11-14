@@ -1,0 +1,73 @@
+:root {
+    --grey1: rgb(58, 58, 58);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body 
+
+.container {
+    border-radius: 10px;
+    border: 1px solid var(--grey1);
+    padding: 10px;
+}
+
+.container h1, h2{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    margin-bottom: 10px;
+}
+
+.formcon {
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+}
+form {
+    align-content: center;
+}
+
+.namebox, .emailbox {
+    width: 300px;
+    height: 25px;
+    border-style: solid;
+    border-color: rgb(56, 54, 54);
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+}
+
+.comment {
+    width: 300px;
+    height: 35px;
+    border-style: solid;
+    border-color: rgb(56, 54, 54);
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submitbtn {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #1DA1F2;
+}
+
+.btncon {
+    display: flex;
+    justify-content: center;
+}
